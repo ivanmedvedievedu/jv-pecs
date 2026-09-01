@@ -10,9 +10,6 @@ import core.mate.academy.service.producer.TruckProducer;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Your implementation of MachineService.
- */
 public class MachineServiceImpl implements MachineService<Machine> {
     @Override
     public List<Machine> getAll(Class<? extends Machine> type) {
